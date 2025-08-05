@@ -71,7 +71,7 @@ def insert_record(row):
     conn.commit()
     conn.close()
     
-
+#tete
 def get_zmiana_na_dzien(username, data):  # szuka zmianę na dany dzień (DD.MM.YYYY)
     conn = connect_db()
     cur = conn.cursor()
